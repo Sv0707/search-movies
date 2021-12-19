@@ -1,0 +1,75 @@
+.button {
+  width: 100px;
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #2a363b;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.poster {
+  width: 500px;
+  margin-left: 10px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.movieBlock {
+  display: flex;
+  padding-bottom: 10px;
+  align-items: center;
+}
+
+.descriptionBlock {
+  padding-left: 20px;
+}
+
+.title {
+  margin: 0;
+}
+
+.userScore {
+  margin-bottom: 10px;
+}
+
+.genres {
+  margin-bottom: 10px;
+}
+
+.genres:not(:last-child) {
+  margin-right: 10px;
+}
+
+.info {
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.infoBlock {
+  margin-bottom: 10px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+  margin-left: 20px;
+}
+
+.link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.linkActive {
+  color: #01b4e4;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}

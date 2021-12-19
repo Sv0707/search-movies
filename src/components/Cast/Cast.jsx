@@ -36,7 +36,7 @@ const Cast = ({ movieId }) => {
           })}
         </ul>
       ) : (
-        <p>'We don`t have any Cast info for this movie.'</p>
+        <p>We don`t have any Cast info for this movie.</p>
       )}
     </div>
   );

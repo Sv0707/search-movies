@@ -26,7 +26,7 @@ const Reviews = ({ movieId }) => {
           })}
         </ul>
       ) : (
-        <p>'We don`t have any Reviews for this movie.'</p>
+        <p>We don`t have any Reviews for this movie.</p>
       )}
     </div>
   );

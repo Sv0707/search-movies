@@ -46,7 +46,7 @@ const MoviesDetailPage = () => {
         <>
           <div className={s.movieBlock}>
             <img
-              src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path}`}
+              src={`https://www.themoviedb.org/t/p/original/${movie.backdrop_path}`}
               alt={movie.title}
               className={s.poster}
             />

@@ -1,11 +1,9 @@
-import { useState, useEffect } from "react";
-import { Link, useRouteMatch, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import PropTypes from "prop-types";
 import s from "./MoviesList.module.css";
 import defaultImage from "../../images/defaultImage.jpg";
 
 const MoviesList = ({ movies }) => {
-  const { url } = useRouteMatch();
   const location = useLocation();
 
   return (
